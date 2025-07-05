@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brown Bag Wulan Store - Beranda</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section id="beranda">
+    <div class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>Brown Bag Wulan Store</h1>
+        <h2>Tas Elegan & Berkualitas</h2>
+        <p>Kami menyediakan berbagai pilihan tas elegan dan berkualitas, cocok untuk segala suasana. Temukan tas impianmu sekarang juga!</p>
+        <a href="produk.html" class="btn">Belanja Sekarang!!</a>
+      </div>
+    </div>
+  </section>
+
+<!-- Navigasi -->
+  <header>
+    <nav>
+    <div class="logo">
+    <img src="image/logo.png" alt="Logo Brown Bag Wulan Store" />
+    </div>
+      <ul>
+        <li><a href="index.html"><i class="fa fa-home"></i> Beranda</a></li>
+        <li><a href="produk.html"><i class="fa fa-bag-shopping"></i> Produk</a></li>
+        <li><a href="keranjang.html"><i class="fa fa-cart-shopping"></i> Keranjang</a></li>
+        <li><a href="wishlist.html"><i class="fa fa-heart"></i> Wishlist</a></li>
+        <li><a href="kontak.html"><i class="fa fa-envelope"></i> Kontak</a></li>
+      </ul>
+      <div class="search-box">
+        <input type="text" placeholder="Cari produk...">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+    </nav>
+  </header>
+
+<!-- Produk -->
+  <main>
+  <section id="produk">
+    <h1 class="judul-produk">Rekomendasi Produk Unggulan Kami</h1>
+    <div class="product-grid">
+  
+      <div class="product">
+        <img src="image/tas3.jpg" alt="Tas Selempang">
+        <h3>Tas Selempang</h3>
+        <p>Ringan dan praktis, tas ini pas untuk kamu yang aktif dan stylish.</p>
+        <p>Rp220.000</p>
+        <button class="beli-btn" data-nama="Tas Selempang" data-harga="220000">Beli</button>
+      </div>
+
+      <div class="product">
+        <img src="image/tas9.jpg" alt="Tas Santai">
+        <h3>Tas Santai</h3>
+        <p>Desain kasual dengan warna netral, pas untuk digunakan setiap hari.</p>
+        <p>Rp190.000</p>
+        <button class="beli-btn" data-nama="Tas Santai" data-harga="190000">Beli</button>
+      </div>
+
+      <div class="product">
+        <img src="image/tas10.jpg" alt="Tas Jinjing Elegan">
+        <h3>Tas Jinjing Elegan</h3>
+        <p>Desain premium dengan sentuhan glamor, cocok untuk acara formal dan pesta.</p>
+        <p>Rp350.000</p>
+        <button class="beli-btn" data-nama="Tas Jinjing Elegan" data-harga="350000">Beli</button>
+      </div>
+
+      <div class="product">
+        <img src="image/tas16.jpg" alt="Tas Soft Ivory Shoulder Bag">
+        <h3>Tas Soft Ivory Shoulder Bag</h3>
+        <p>Tas bahu berbahan lembut warna ivory dengan desain fleksibel. Memberi kenyamanan maksimal.</p>
+        <p>Rp500.000</p>
+        <button class="beli-btn" data-nama="Tas Soft Ivory Shoulder Bag" data-harga="500000">Beli</button>
+      </div>
+
+      <div class="product">
+        <img src="image/tas11.jpg" alt="Tas Choco Chic Tote">
+        <h3>Tas Choco Chic Tote</h3>
+        <p>Aksen metalik yang memberikan kesan mewah. Cocok untuk tampilan formal dan kasual.</p>
+        <p>Rp650.000</p>
+        <button class="beli-btn" data-nama="Tas Choco Chic Tote" data-harga="650000">Beli</button>
+      </div>
+
+      <div class="product">
+        <img src="image/tas20.jpg" alt="Tas Ivory Formal Handbag">
+        <h3>Tas Ivory Formal Handbag</h3>
+        <p>Tas formal ivory yang bersih dan profesional. Cocok dipadukan dengan outfit kerja.</p>
+        <p>Rp400.000</p>
+        <button class="beli-btn" data-nama="Tas Ivory Formal Handbag" data-harga="400000">Beli</button>
+      </div>
+    </div>
+</section>
+</main>
+
+  <!-- Footer -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h4>Tentang Kami</h4>
+      <p>Kami menyediakan berbagai pilihan tas elegan dan berkualitas, cocok untuk segala suasana.</p>
+      <h5>Kontak Kami</h5>
+      <p><a href="mailto:wulanherlina0108@gmail.com">wulanherlina0108@gmail.com</a></p>
+      <p><a href="https://wa.me/6281324278860" target="_blank">+62 813-2427-8860</a></p>
+      <p><a href="https://instagram.com/wulanhrl_" target="_blank">@wulanhrl_</a></p>
+      <p>Jl. Pasir Kaliki No.179 A, 40173 Sukabungah, Kota Bandung, Jawa Barat, Indonesia</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Brown Bag Wulan Store. Hak Cipta Dilindungi.</p>
+  </div>
+</footer>
+
+<!-- Notifikasi -->
+<div class="notification" id="notif">Produk telah ditambahkan ke keranjang!</div>
+<div id="wishlist-notif" class="notification">Produk disimpan ke Wishlist!</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
